@@ -216,14 +216,6 @@ python3 analyze_isam.py --endian little file.dat file.idx
 
 ## 💻 C 코드 컴파일
 
-### 필수 패키지
-
-```bash
-# ISAM 라이브러리 설치
-apt-get install libisam0 libisam-dev  # Debian/Ubuntu
-yum install isam isam-devel           # RHEL/CentOS
-```
-
 ### 컴파일 명령어
 
 ```bash
