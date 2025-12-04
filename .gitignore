@@ -1,0 +1,14 @@
+# 제외할 디렉토리
+Informix_CISAM/
+
+# 컴파일된 바이너리
+*.out
+*.o
+
+# 임시 파일
+*.tmp
+*.log
+
+# ISAM 데이터 파일 (로컬 테스트용)
+*.isam.dat
+*.isam.idx
