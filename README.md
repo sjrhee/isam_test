@@ -1,10 +1,10 @@
-# C-ISAM 분석 및 개발 프로젝트
+# C-ISAM 분석 및 개발 사전 테스트
 
 IBM Informix C-ISAM (Indexed Sequential Access Method) 데이터베이스 파일 구조 분석 및 관리 도구입니다.
 
-## 📋 프로젝트 개요
+## 📋 사전 테스트 개요
 
-이 프로젝트는 C-ISAM 파일의 구조를 파악하고, 데이터를 로드/읽기하는 완전한 시스템을 제공합니다.
+이 사전 테스트는 C-ISAM 파일의 구조를 파악하고, 데이터를 로드/읽기하는 완전한 시스템을 제공합니다.
 
 ### 주요 기능
 
@@ -31,8 +31,7 @@ IBM Informix C-ISAM (Indexed Sequential Access Method) 데이터베이스 파일
 │
 ├── 📚 문서
 │   ├── ISAM_ANALYSIS_GUIDE.md    # 기본 개념 및 분석 방법
-│   ├── ENDIAN_GUIDE.md           # 엔디안 상세 가이드
-│   └── ENDIAN_SUMMARY.txt        # 엔디안 최종 정리
+│   └── ENDIAN_GUIDE.md           # 엔디안 상세 가이드
 │
 └── 📊 테스트 데이터
     └── customers.csv             # 1000 레코드 샘플 데이터
@@ -213,12 +212,6 @@ python3 analyze_isam.py --endian little file.dat file.idx
 - 파일 마이그레이션 방법
 - 실전 시나리오 10가지
 
-### [ENDIAN_SUMMARY.txt](./ENDIAN_SUMMARY.txt)
-- 핵심 결론 정리
-- 단계별 해결 방법
-- 구체적 비교 분석
-- HP-UX 버전별 대응 방법
-
 ---
 
 ## 💻 C 코드 컴파일
@@ -354,7 +347,7 @@ python3 analyze_isam.py --endian little file.dat file.idx
 
 ## 📝 라이센스
 
-이 프로젝트는 교육 및 레거시 시스템 마이그레이션 목적으로 제공됩니다.
+이 사전 테스트는 교육 및 레거시 시스템 마이그레이션 목적으로 제공됩니다.
 
 ---
 
@@ -374,7 +367,6 @@ C-ISAM 파일 분석 및 마이그레이션과 관련된 질문이 있으면 이
 
 - [ISAM_ANALYSIS_GUIDE.md](./ISAM_ANALYSIS_GUIDE.md) - 기본 개념
 - [ENDIAN_GUIDE.md](./ENDIAN_GUIDE.md) - 엔디안 상세 가이드
-- [ENDIAN_SUMMARY.txt](./ENDIAN_SUMMARY.txt) - 최종 정리
 
 ---
 
